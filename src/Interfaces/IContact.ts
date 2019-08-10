@@ -1,6 +1,6 @@
-import { IPhone } from "./IPhones";
+import { IPhone } from './IPhones';
 
-export interface IContact { 
-  mail: string; 
-  phones: Array<IPhone>
+export interface IContact {
+  mail: string;
+  phones: [IPhone];
 }
